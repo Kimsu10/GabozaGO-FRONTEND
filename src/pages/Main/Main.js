@@ -144,10 +144,10 @@ const LocationBtn = styled.button`
 `;
 
 const TagListBox = styled.div`
-  margin-left: 1.5em;
   width: 45em;
   font-size: 2em;
   padding: 2em;
+  margin: 0 auto;
 `;
 
 const TagName = styled.div`
