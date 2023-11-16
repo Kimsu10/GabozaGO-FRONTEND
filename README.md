@@ -74,7 +74,7 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 - 유저의 지리적 정보 및 관심사 정보를 통한 해양 레져 액티비티 추천 및 중개
 
 ---
-![로그인](https://github.com/Kimsu10/2nd-FE-GabozaGO/assets/107941176/7e40469e-89c0-44bf-b093-ee43341d7e98)
+
 
 
 
@@ -82,7 +82,9 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 
 ### I. 엔드유저의 관심정보 취득 및 관리 → 회원가입, 로그인 기능
 
+![로그인](https://github.com/Kimsu10/2nd-FE-GabozaGO/assets/107941176/7e40469e-89c0-44bf-b093-ee43341d7e98)
 
+![회원가입](https://github.com/Kimsu10/2nd-FE-GabozaGO/assets/107941176/6a47bef4-3579-4db1-94a2-272a1d833d21)
 
 1. FE 
     1. API키와 RedirectURI를 설정하여 카카오로그인페이지에서 인증코드를 받아 백엔드에 전달하고 백에서 토큰을 받아 회원가입상태로 변경.
