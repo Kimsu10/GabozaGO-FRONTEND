@@ -21,7 +21,7 @@ https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
 
 ### Tech: 우리가 사용한 기술스택
 
-- 기술스택 → 여기서 편집 후 재설정 필요 https://techstack-generator.vercel.app/
+
 - 동적인 웹페이지 구성 및 '날짜'라는 개념을 적극 활용해야 하는 측면이 있는 만큼, 자바스크립트를 채택하여 동적인 엔드뷰 구성 및 풍부한 생태계에서 오는 각종 라이브러리를 활용한다.
 1. 공통: 자바스크립트
     1. FrontEnd: React, Styled Components, AWS S3
@@ -29,7 +29,7 @@ https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
     2. be : Node.js, Express, MySQL, docker, aws
         - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div>
     3. 협업툴: Git, GitHub, Slack, Trello, Notion, VSCode → https://shields.io/
-        
+   
         <div>
         <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/>
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
@@ -38,7 +38,7 @@ https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
         <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
         <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/>
         </div>
-        
+        - 기술스택 → 여기서 편집 후 재설정 필요 https://techstack-generator.vercel.app/
 ---
 
 # 결과물
@@ -61,18 +61,11 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 ---
 
 # 프로젝트 선정이유
- ## 모델링 사이트: 다이닝코드
+ ## 모델링 사이트: [다이닝코드](https://www.diningcode.com/)
 - 다이닝 코드는 위치기반 서비스를 사용하여 유저근처의 음식집들을 소개하고 유저가 리뷰를 남기면 300원씩 주는 사업방식을 채택하였습니다.
 - 예약이라든가 결제시스템없이 어떻게 수익을 창출하는지 알아본결과 유저의 리뷰를 수집하여 BtoB 방식으로 인공지능이사 map관련 회사에 판매하여수익창출을 하는것을 발견하였습니다.
 - 저희는 비슷한 방식으로 위치기반으로 할 수 있는 서비스가 무엇이있나 생각해보았고, 급하게 물놀이를 와서 주변에 물놀이가 무엇이 있는지 찾을 유저와 여름맞이 여행을 떠날 유저들에게 위치를 검색하여 근처의 물놀이를 소개하는 사이트를 만들자로 의견이 일치하였습니다.
 - 하지만 수익창출에관하여 BtoB 방식을 채택할 조건이되지않아 직접 예약해주고 거기서 일부 중개비를 떼는 방식을 채택하였습니다.
-
----
-
-# Clone Coding project - [다이닝코드](https://www.diningcode.com/)
-
-- 맛집 추천, 빅데이터 분석, 빅데이터 거래
-    - B2B 영역에 있는 빅데이터 분석 및 빅데이터 거래는 현재 구현이 불가능하므로, 엔드유저의 정보에 기반한 추천시스템을 따와 변조한다.
 
 ---
 
@@ -129,9 +122,11 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 
 ---
 
-# 구현 기능 상세
+# 구현 기능 
 
 ### I. 엔드유저의 관심정보 취득 및 관리 → 회원가입, 로그인 기능
+
+![로그인 회원가입](https://github.com/Kimsu10/2nd-FE-GabozaGO/assets/107941176/eb70fe2e-a57f-4f3e-9c82-634274371fd5)
 
 1. FE 
     1. API키와 RedirectURI를 설정하여 카카오로그인페이지에서 인증코드를 받아 백엔드에 전달하고 백에서 토큰을 받아 회원가입상태로 변경.
@@ -150,7 +145,11 @@ https://www.youtube.com/embed/AUk8vcQAQRM
         3. 추가사항을 기입한 유저와 기입안한 유저를 분류하기위해 signup_status 컬럼을 하나 더 만들어서 사용해준다.
         4. signup_status가 0이면 추가기입해야하고 1이면 로그인
 
+   ---
+
 ### II. 위치 및 관심정보에 따른 액티비티 추천 → 메인페이지 구성
+
+
 
 1. 수상레저에관련된 이미지를 넣은 캐러셀을 만들어 물놀이이에대한 욕구를 끌어올리고자 함.
     1. 3초간격으로 이미지가 바뀜
