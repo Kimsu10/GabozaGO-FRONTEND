@@ -5,13 +5,15 @@
 # 가보자GO
 - 위치를 기반으로 목적지 및 현위치 근처의 다양한 물놀이를 소개및 예약해주는 사이트
 
-# 시연영상
-https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
-
-# 프로젝트 기간
+## 프로젝트 기간
 2023.07.17 ~ 2023.07.28
 
-# **팀원 소개**
+## 시연영상
+https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
+
+
+
+## 팀원 소개
 
 - FrontEnd: 김수정
 - BackEnd: 서동희(ProductManager), 이주현(ProjectManager), 하준수
@@ -20,7 +22,6 @@ https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
     - [BackEnd](https://github.com/wecode-bootcamp-korea/47-2nd-gabozaGo-backend)
 
 ### Tech: 우리가 사용한 기술스택
-
 
 - 동적인 웹페이지 구성 및 '날짜'라는 개념을 적극 활용해야 하는 측면이 있는 만큼, 자바스크립트를 채택하여 동적인 엔드뷰 구성 및 풍부한 생태계에서 오는 각종 라이브러리를 활용한다.
 1. 공통: 자바스크립트
@@ -41,17 +42,16 @@ https://youtu.be/AUk8vcQAQRM?si=gCTbELKVM-YPaK3Q
         - 기술스택 → 여기서 편집 후 재설정 필요 https://techstack-generator.vercel.app/
 ---
 
-# 결과물
-
-## 데모영상
+## 결과물
+### 데모영상
 https://www.youtube.com/embed/AUk8vcQAQRM
 
-## 개발 코드
+### 개발 코드
 
 - [FrontEnd](https://github.com/wecode-bootcamp-korea/47-2nd-gabozaGo-frontend)
 - [BackEnd](https://github.com/wecode-bootcamp-korea/47-2nd-gabozaGo-backend)
 
-## 참고자료
+### 참고자료
 
 - Notion Teamspace - [team gabozaGo](https://www.notion.so/7c6ef533597847b39be0eea7092ffdde?pvs=21)
 - Trello - [Ticket management](https://trello.com/b/YZxvoPxc/%EA%B0%80%EB%B3%B4%EC%9E%90go)
@@ -60,7 +60,7 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 
 ---
 
-# 프로젝트 선정이유
+## 프로젝트 선정이유
  ## 모델링 사이트: [다이닝코드](https://www.diningcode.com/)
 - 다이닝 코드는 위치기반 서비스를 사용하여 유저근처의 음식집들을 소개하고 유저가 리뷰를 남기면 300원씩 주는 사업방식을 채택하였습니다.
 - 예약이라든가 결제시스템없이 어떻게 수익을 창출하는지 알아본결과 유저의 리뷰를 수집하여 BtoB 방식으로 인공지능이사 map관련 회사에 판매하여수익창출을 하는것을 발견하였습니다.
@@ -75,10 +75,7 @@ https://www.youtube.com/embed/AUk8vcQAQRM
 
 ---
 
-
-
-
-# 구현 기능 
+## 구현 기능 
 
 ### I. 엔드유저의 관심정보 취득 및 관리 → 회원가입, 로그인 기능
 
